@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Holo Hunterz · Channel Hub</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0912;--card:#14121f;--mint:#a7ffeb;--cyan:#5ee7ff;--violet:#a98bff;--pink:#d90093;--text:#f2f0ff;--muted:#9a95b5}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(1200px 600px at 10% -10%,#2a1b55 0,transparent 60%),radial-gradient(900px 500px at 110% 10%,#3b0a33 0,transparent 55%),var(--bg);color:var(--text);font:16px/1.5 Inter,system-ui,sans-serif;padding:28px 16px 48px}
+.wrap{max-width:980px;margin:0 auto}
+h1,h2{font-family:"Mochiy Pop P One",Inter,sans-serif;font-weight:400;margin:0}
+h1{font-size:clamp(28px,6vw,46px);text-align:center;background:linear-gradient(90deg,var(--mint),var(--cyan),var(--violet),var(--pink),var(--mint));background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 8s linear infinite}
+.sub{text-align:center;color:var(--muted);margin:6px 0 26px}
+@keyframes shine{to{background-position:300% 0}}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{position:relative;background:var(--card);border-radius:20px;padding:20px;border:1px solid transparent;background-image:linear-gradient(var(--card),var(--card)),linear-gradient(135deg,var(--mint),var(--violet),var(--pink));background-origin:border-box;background-clip:padding-box,border-box;box-shadow:0 0 24px rgba(169,139,255,.18)}
+.head{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.head img{width:64px;height:64px;border-radius:50%;box-shadow:0 0 0 2px var(--mint),0 0 18px rgba(167,255,235,.55)}
+.head h2{font-size:20px;line-height:1.2}
+.head small{display:block;color:var(--muted);font-size:13px}
+.links{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+a.btn,span.soon{display:flex;align-items:center;justify-content:center;min-height:46px;padding:10px;border-radius:12px;font-weight:600;font-size:15px;text-decoration:none;text-align:center}
+a.btn{color:#fff;background:#0f0d18;border:1.5px solid var(--cyan);box-shadow:0 0 10px rgba(94,231,255,.25);transition:transform .15s,box-shadow .15s,border-color .15s}
+a.btn:hover,a.btn:focus-visible{transform:translateY(-2px);border-color:var(--pink);box-shadow:0 0 18px rgba(217,0,147,.5),0 0 8px rgba(94,231,255,.4);outline:none}
+a.btn.yt{grid-column:1/-1;border-color:var(--mint)}
+span.soon{color:var(--muted);border:1.5px dashed #3a3552;font-weight:400;font-size:14px}
+.studio{margin-top:26px}
+.studio h2{font-size:18px;margin-bottom:12px;text-align:center}
+.studio .links{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+footer{margin-top:30px;text-align:center;color:var(--muted);font-size:13px}
+footer a{color:var(--mint)}
+@media (prefers-reduced-motion:reduce){h1{animation:none}a.btn{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>HOLO HUNTERZ</h1>
+<p class="sub">Channel Hub · every profile, one tap</p>
+
+<div class="grid">
+<!-- ===== BODY LAB ===== -->
+<section class="card">
+<div class="head"><img src="assets/BodyLab.webp" alt="Body Lab logo" width="64" height="64"><div><h2>Body Lab</h2><small>@bodylabexplained</small></div></div>
+<div class="links">
+<a class="btn yt" href="https://www.youtube.com/@bodylabexplained">YouTube</a>
+<a class="btn" href="https://www.instagram.com/bodylabexplained/">Instagram</a>
+<a class="btn" href="https://www.tiktok.com/@bodylabexplained">TikTok</a>
+<a class="btn" href="https://x.com/Bodylabofficial">X</a>
+<span class="soon">Facebook · coming soon</span>
+</div>
+</section>
+
+<!-- ===== EXTREMES OF THE UNIVERSE ===== -->
+<section class="card">
+<div class="head"><img src="assets/OceanSpace.webp" alt="Extremes of the Universe logo" width="64" height="64"><div><h2>Extremes of the Universe</h2><small>@extremesoftheuniverse</small></div></div>
+<div class="links">
+<a class="btn yt" href="https://www.youtube.com/@extremesoftheuniverse">YouTube</a>
+<a class="btn" href="https://www.tiktok.com/@extreme.universe">TikTok</a>
+<a class="btn" href="https://www.instagram.com/extreme.universe/">Instagram</a>
+<span class="soon">X · coming soon</span>
+<span class="soon">Facebook · coming soon</span>
+</div>
+</section>
+
+<!-- ===== BACK OF THE SLEEVE ===== -->
+<section class="card">
+<div class="head"><img src="assets/MusicHistory.webp" alt="Back of the Sleeve logo" width="64" height="64"><div><h2>Back of the Sleeve</h2><small>@BackOfTheSleeve</small></div></div>
+<div class="links">
+<a class="btn yt" href="https://www.youtube.com/@BackOfTheSleeve">YouTube</a>
+<span class="soon">TikTok · coming soon</span>
+<span class="soon">Instagram · coming soon</span>
+<span class="soon">X · coming soon</span>
+<span class="soon">Facebook · coming soon</span>
+</div>
+</section>
+</div>
+
+<!-- ===== STUDIO LINKS ===== -->
+<section class="card studio">
+<h2>Studio</h2>
+<div class="links">
+<a class="btn" href="https://studio.youtube.com">YouTube Studio</a>
+<a class="btn" href="https://business.facebook.com">Meta Business Suite</a>
+<a class="btn" href="https://www.tiktok.com/tiktokstudio">TikTok Studio</a>
+</div>
+</section>
+
+<footer>Made for <a href="https://holohunterz.com">HoloHunterz</a></footer>
+</div>
+</body>
+</html>
